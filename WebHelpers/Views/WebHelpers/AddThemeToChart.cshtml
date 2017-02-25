@@ -1,0 +1,123 @@
+﻿
+@{
+    Layout = null;
+}
+
+<h2>AddThemeToChart</h2>
+
+@*@{
+    var graph = new Chart(width: 400, height: 400);
+    graph.AddTitle(text: "First Half Year Grade Averages");
+    graph.AddLegend("Data");
+    graph.AddSeries(
+        name: "Averages",
+        chartType: "Point",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 80, 40, 60 }
+    );
+    graph.Write();
+}
+
+@{
+    var graph2 = new Chart(width: 400, height: 400);
+    graph2.AddTitle(text: "First Half Year Grade Averages");
+    graph2.AddLegend("Data");
+    graph2.AddSeries(
+        name: "Averages2",
+        chartType: "Bubble",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 80, 40, 60 }
+    );
+    graph2.Write();
+}
+
+@{
+    var graph3 = new Chart(width: 400, height: 400);
+    graph3.AddTitle(text: "First Half Year Grade Averages");
+    graph3.AddLegend("Data");
+    graph3.AddSeries(
+        name: "Averages3",
+        chartType: "Line",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 80, 40, 60 }
+    );
+    graph3.Write();
+}
+
+@{
+    var graph4 = new Chart(width: 400, height: 400);
+    graph4.AddTitle(text: "First Half Year Grade Averages");
+    graph4.AddLegend("Data");
+    graph4.AddSeries(
+        name: "Averages4",
+        chartType: "Spline",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 80, 40, 60 }
+    );
+    graph4.Write();
+}
+
+@{
+    var graph5 = new Chart(width: 400, height: 400);
+    graph5.AddTitle(text: "First Half Year Grade Averages");
+    graph5.AddLegend("Data");
+    graph5.AddSeries(
+        name: "Averages5",
+        chartType: "Bar",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 80, 40, 60 }
+    );
+    graph5.Write();
+}
+
+@{
+    var graph6 = new Chart(width: 400, height: 400);
+    graph6.AddTitle(text: "First Half Year Grade Averages");
+    graph6.AddLegend("Data");
+    graph6.AddSeries(
+        name: "Averages6",
+        chartType: "Column",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 80, 40, 60 }
+    );
+    graph6.Write();
+}
+
+@{
+    var graph7 = new Chart(width: 400, height: 400);
+    graph7.AddTitle(text: "First Half Year Grade Averages");
+    graph7.AddLegend("Data");
+    graph7.AddSeries(
+        name: "Averages7",
+        chartType: "Area",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 80, 40, 60 }
+    );
+    graph7.Write();
+}
+
+@{
+    var graph8 = new Chart(width: 400, height: 400);
+    graph8.AddTitle(text: "First Half Year Grade Averages");
+    graph8.AddLegend("Data");
+    graph8.AddSeries(
+        name: "Averages8",
+        chartType: "SplineArea",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 80, 40, 60 }
+    );
+    graph8.Write();
+}*@
+
+@{
+    var graph9 = new Chart(width: 400, height: 400);
+    graph9.AddTitle(text: "First Half Year Grade Averages");
+    graph9.AddLegend("Data");
+    graph9.AddSeries(
+        name: "Averages9",
+        chartType: "Pie",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 80, 40, 60 }
+    );
+    graph9.Write();
+}

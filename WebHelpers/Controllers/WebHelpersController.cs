@@ -17,5 +17,9 @@ namespace WebHelpers.Controllers
         {
             return View();
         }
+        public ActionResult AddThemeToChart()
+        {
+            return View();
+        }
     }
 }
