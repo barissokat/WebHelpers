@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<h2>ChartDoubleData</h2>
+
+@{
+    var graph = new Chart(width: 400, height: 400);
+    graph.AddTitle(text: "First Half Year Grade Averages and Standard Deviation");
+    graph.AddLegend("Data");
+    graph.AddSeries(
+        name: "Averages",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 80, 40, 60 }
+    );
+    graph.AddSeries(
+        name: "Standard Deviation",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 20, 35, 25 }
+    );
+    graph.Write();
+}

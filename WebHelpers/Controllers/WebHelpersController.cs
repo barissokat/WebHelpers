@@ -9,10 +9,12 @@ namespace WebHelpers.Controllers
 {
     public class WebHelpersController : Controller
     {
-        // GET: WebHelpers
         public ActionResult ChartSingleData()
         {
-            
+            return View();
+        }
+        public ActionResult ChartDoubleData()
+        {
             return View();
         }
     }
