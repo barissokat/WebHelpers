@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "ChartSingleData";
+}
+
+<h2>ChartSingleData</h2>
+
+@{
+    var graph = new Chart(width: 400, height: 400);
+    graph.AddTitle(text: "First Half Year Grade Averages");
+    graph.AddLegend("Data");
+    graph.AddSeries(
+        name: "Averages",
+        xValue: new[] { "BM101", "BM102", "BM103" },
+        yValues: new[] { 80, 40, 60 }
+    );
+    graph.Write();
+}
