@@ -27,6 +27,9 @@ namespace WebHelpers.Controllers
         public void DisplayImage()
         {
             WebImage img = new WebImage(ImagePath);
+            //Rotate image
+            //img.RotateLeft();
+            //img.RotateRight();
             img.Write();
         }
     }
