@@ -30,6 +30,10 @@ namespace WebHelpers.Controllers
             //Rotate image
             //img.RotateLeft();
             //img.RotateRight();
+
+            //Flip image
+            //img.FlipHorizontal();
+            //img.FlipVertical();
             img.Write();
         }
     }
