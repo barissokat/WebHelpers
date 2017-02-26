@@ -199,6 +199,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\WebHelpersController.cs" />
+    <Compile Include="Controllers\WebImageTestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -211,6 +212,8 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img1.jpg" />
+    <Content Include="Content\img2.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -269,6 +272,7 @@
     <Content Include="Views\WebHelpers\ChartSingleData.cshtml" />
     <Content Include="Views\WebHelpers\ChartDoubleData.cshtml" />
     <Content Include="Views\WebHelpers\AddThemeToChart.cshtml" />
+    <Content Include="Views\WebImageTest\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
