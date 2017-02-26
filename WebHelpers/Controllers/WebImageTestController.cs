@@ -34,6 +34,9 @@ namespace WebHelpers.Controllers
             //Flip image
             //img.FlipHorizontal();
             //img.FlipVertical();
+
+            //Resize image
+            img.Resize(100, 100, preserveAspectRatio: true);
             img.Write();
         }
     }
