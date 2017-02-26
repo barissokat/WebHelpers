@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Helpers;
 using System.Web.Mvc;
 
 namespace WebHelpers.Controllers
@@ -21,6 +22,12 @@ namespace WebHelpers.Controllers
         {
 
             return View();
+        }
+
+        public void DisplayImage()
+        {
+            WebImage img = new WebImage(ImagePath);
+            img.Write();
         }
     }
 }
