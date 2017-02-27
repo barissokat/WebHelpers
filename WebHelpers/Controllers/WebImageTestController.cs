@@ -39,7 +39,9 @@ namespace WebHelpers.Controllers
             //img.Resize(100, 100, preserveAspectRatio: true);
 
             //Add Text Watermark
-            img.AddTextWatermark("Test", fontColor: "White", fontSize: 20, horizontalAlign: "Center", verticalAlign: "Top", opacity: 50);
+            //img.AddTextWatermark("Test", fontColor: "White", fontSize: 20, horizontalAlign: "Center", verticalAlign: "Top", opacity: 50);
+
+            img.AddImageWatermark(Server.MapPath("~/Content/img2.jpg"), opacity: 50, width: 400, height: 350);
             img.Write();
         }
     }
