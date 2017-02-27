@@ -36,7 +36,10 @@ namespace WebHelpers.Controllers
             //img.FlipVertical();
 
             //Resize image
-            img.Resize(100, 100, preserveAspectRatio: true);
+            //img.Resize(100, 100, preserveAspectRatio: true);
+
+            //Add Text Watermark
+            img.AddTextWatermark("Test", fontColor: "White", fontSize: 20, horizontalAlign: "Center", verticalAlign: "Top", opacity: 50);
             img.Write();
         }
     }
